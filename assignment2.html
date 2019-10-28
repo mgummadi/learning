@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<title>using class</title>
-		<style>
-			.Engineering {
-				background-color: orange;
-				color: yellow;
-				margin: 20px;
-
-			}
-		</style>
-	</head>
-	<body>
-		<div class="Engineering">
-			<h2>ECE</h2>
-			<P>Electronics & Communication Engineering</P>
+<html>
+<head>
+	<title>using class</title>
+	<style>
+		body {
+			font-family: cursive;
+			font-size: 1.6rem;
+			font-weight: 900;
+		}
+		abbr:hover {
+			cursor: default;
+		}
+		.engineering {
+			color: yellow;
+			padding	: 10px;
+		}
+		.div-styles {
+			min-height: 50rem;
+			background-color: #8c8c8c;
+			display: flex;
+			justify-content: space-around;
+		}
+	</style>
+</head>
+<body>
+	<div class="div-styles">
+		<div class="engineering">
+			<h2><abbr title="Electronics & Communication Engineering">ECE</abbr></h2>
+			<p>Electronics & Communication Engineering</p>
 		</div>
-		<div class="Engineering">
-			<h2>CSE</h2>
+		<div class="engineering">
+			<h2><abbr title="Computer Science Engineering">CSE</abbr></h2>
 			<p>Computer Science Engineering</p>
 		</div>
-		<div class="Engineering">
-			<h2>EEE</h2>
+		<div class="engineering">
+			<h2><abbr title="Electrical & Electronic Engineering">EEE</abbr></h2>
 			<p>Electrical & Electronic Engineering</p>
 		</div>
-	
-	</body>
-	</html>>
+	</div>
+</body>
+</html>
